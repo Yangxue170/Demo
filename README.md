@@ -21,10 +21,6 @@ Servlet (Server Applet),是Java Servlet的简称,是java编写的服务端程序
 > 疑问🤔️: 为什么创建的Web项目默认访问index.jsp文件?
   答疑: Tomcat在启动的时候,会读取项目的web.xml文件及Tomcat自带的web.xml文件(位置：apache-tomcat-8.5.43\conf\web.xml),Tomcat的web.xml文件中定义了两个servlet.
   
-> 疑问🤔️: 为什么创建的Web项目默认访问index.jsp文件?
-
-答疑: Tomcat在启动的时候,会读取项目的web.xml文件及Tomcat自带的web.xml文件(位置：apache-tomcat-8.5.43\conf\web.xml),Tomcat的web.xml文件中定义了两个servlet.
-
 ##  Tomcat web.xml
 
 **DefaultServlet**
